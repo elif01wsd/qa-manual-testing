@@ -44,6 +44,7 @@ Telefon alanı ile KVKK checkbox'ı birbirine yapışık duruyor. Boşluk (paddi
 **Öncelik / Şiddet (Priority / Severity):**
 
 Priority: Low
+
 Severity: Minor (Fonksiyonel hata değil, UI/UX hatası)
 
 **Kanıt (Evidence):**
@@ -84,12 +85,15 @@ Telefon alanı karakter limiti yok, 20+ karakter alıyor. Herhangi bir validasyo
 **Öncelik / Şiddet (Priority / Severity):**
 
 Priority: Medium
+
 Severity: Major (Veri bütünlüğünü etkiliyor)
 
 **Kanıt (Evidence):**
 
 <img width="738" height="1451" alt="Bug_2" src="https://github.com/user-attachments/assets/05873350-bf67-4a49-a54f-03564ecc73ba" />
+
 **Öneri:** Input için 'maxlength="11"', 'type="tel"' ve 'pattern="[0-9]*"' eklenebilir.
+
 
 
 
